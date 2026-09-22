@@ -26,6 +26,27 @@ const services = [
   { icon: '', title: 'Diagnóstico eléctrico', text: 'Inspección de fallas, puntos eléctricos, conexiones y necesidades de mejora.' }
 ];
 
+const team = [
+  {
+    name: 'MAYRON YESID CASARES MURIELES',
+    role: 'Gerente / Ténico electricista',
+    image: `${import.meta.env.BASE_URL}persona-1.avif`,
+    education: 'Tecnólogo en electricidad industrial y estudios relacionados.',
+    experience: 'Ensamble de tableros eléctricos, conexión e instalación de sistemas de control e intrumentación, instalación de redes internas, conexión de motores e implementación de variadores de frecuencia.',
+    description:
+      'Comprometido con el trabajo responsable, el conocimiento sobre mi profesión y la practica bajo la normativa eléctrica, con el fin de un trabajo seguro y de calidad.'
+  },
+  {
+    name: 'RAIZA JOCABETH ARRIETA PEREZ',
+    role: 'Gerente / Ténica electricista',
+    image: `${import.meta.env.BASE_URL}persona-2.avif`,
+    education: 'Tecnóloga en electricidad industrial y estudios relacionados.',
+    experience: '...',
+    description:
+      'Comprometido con el trabajo responsable, el conocimiento sobre mi profesión y la practica bajo la normativa eléctrica, con el fin de un trabajo seguro y de calidad.'
+  }
+];
+
 const logoPath = `${import.meta.env.BASE_URL}logo-mr.png`;
 
 function App() {
@@ -41,9 +62,9 @@ function App() {
   return (
     <div className="app">
       <header className="site-header">
-        <a className="brand" href="#inicio" onClick={closeMenu} aria-label="Ir al inicio">
+        {/*<a className="brand" href="#inicio" onClick={closeMenu} aria-label="Ir al inicio">
           <img src={logoPath} alt="Logo MR Soluciones Eléctricas" />
-        </a>
+        </a> */}
 
         <button
           className="menu-button"
@@ -58,7 +79,7 @@ function App() {
         <nav className={`main-nav ${menuOpen ? 'is-open' : ''}`} aria-label="Navegación principal">
           <a href="#inicio" onClick={closeMenu}>Inicio</a>
           <a href="#servicios" onClick={closeMenu}>Servicios</a>
-          <a href="#proyectos" onClick={closeMenu}>Proyectos</a>
+          {/*<a href="#proyectos" onClick={closeMenu}>Proyectos</a>*/}
           <a href="#nosotros" onClick={closeMenu}>Nosotros</a>
           <a className="nav-contact" href="#contacto" onClick={closeMenu}>Contáctanos</a>
         </nav>
@@ -74,7 +95,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contacto">Solicitar asesoría</a>
-              <a className="button button-secondary" href="#proyectos">Ver nuestros trabajos</a>
+              <a className="button button-secondary" href="#servicios">Revisa nuestros servicios</a>
             </div>
             <div className="hero-highlights" aria-label="Características del servicio">
               <span>✓ Disponibilidad</span>
@@ -83,11 +104,15 @@ function App() {
             </div>
           </div>
 
-          <div className="hero-card" aria-label="Presentación de la empresa">
+          {/*<div className="hero-card" aria-label="Presentación de la empresa">
             <div className="hero-card-top">MR</div>
             <div className="hero-card-line"></div>
             <p>Electricidad que impulsa tu hogar.</p>
             <strong>Residencial · Comercial</strong>
+          </div>*/}
+          <div className='hero-card'>
+            <img src={logoPath} alt="Logo MR Soluciones Eléctricas" />
+            <strong>SOLUCIONES ELECTRICAS</strong>
           </div>
         </section>
 
@@ -111,7 +136,7 @@ function App() {
           </div>
         </section>
 
-        <section id="proyectos" className="section section-dark">
+        {/*<section id="proyectos" className="section section-dark">
           <div className="section-container">
             <div className="section-heading section-heading-dark">
               <span className="eyebrow">NUESTRO PORTAFOLIO</span>
@@ -145,26 +170,117 @@ function App() {
               ))}
             </div>
           </div>
-        </section>
+        </section>*/}
+
+        {/* ==================== NOSOTROS ==================== */}
 
         <section id="nosotros" className="section section-light">
-          <div className="section-container about-layout">
-            <div>
-              <span className="eyebrow">SOBRE MR</span>
-              <h2>Una empresa cercana, responsable y orientada a soluciones.</h2>
+
+          <div className="section-container">
+
+            <div className="about-layout">
+
+              <div>
+                <span className="eyebrow">SOBRE MR</span>
+
+                <h2>
+                  Una empresa cercana, responsable y orientada a soluciones.
+                </h2>
+              </div>
+
+              <div>
+                <p>
+                  MR Soluciones Eléctricas nace de la iniciativa de profesionales formados en el área eléctrica, con el propósito de ofrecer soluciones responsables, seguras y adaptadas a las necesidades de cada cliente.
+                  Trabajamos para promover
+                  el mejoramiento de la calidad de vida de las personas,
+                  nuestro propósito es ejecutar trabajos con buena
+                  comunicación, atención al detalle y una cultura de
+                  seguridad.
+                </p>
+
+                <p>
+                  Cada proyecto es una oportunidad para construir confianza
+                  y aportar instalaciones más confiables y organizadas.
+                </p>
+              </div>
+
             </div>
-            <div>
-              <p>
-                En MR Soluciones Eléctricas trabajamos para brindar respuestas prácticas a las necesidades de cada cliente.
-                Nuestro propósito es ejecutar trabajos con buena comunicación, atención al detalle y una cultura de seguridad.
-              </p>
-              <p>
-                Cada proyecto es una oportunidad para construir confianza y aportar instalaciones más funcionales y organizadas.
-              </p>
-              <a className="text-link" href="#contacto">Hablemos de tu proyecto →</a>
+
+
+            {/* ==================== EQUIPO ==================== */}
+
+            <div className="team-section">
+
+              <div className="section-heading team-heading">
+                <span className="eyebrow">NUESTRO EQUIPO</span>
+
+                <h2>
+                  Personas detrás de cada solución.
+                </h2>
+
+                <p>
+                  Conoce a las personas que hacen parte de MR Soluciones
+                  Eléctricas y que ponen sus conocimientos y experiencia
+                  al servicio de cada proyecto.
+                </p>
+              </div>
+
+
+              <div className="team-grid">
+
+                {team.map((person) => (
+                  <article
+                    className="team-card"
+                    key={person.name}
+                  >
+
+                    <div className="team-image-container">
+                      <img
+                        src={person.image}
+                        alt={`Fotografía de ${person.name}`}
+                        loading="lazy"
+                      />
+                    </div>
+
+                    <div className="team-body">
+
+                      <span className="team-role">
+                        {person.role}
+                      </span>
+
+                      <h3>{person.name}</h3>
+
+                      <p>
+                        {person.description}
+                      </p>
+
+                      <div className="team-info">
+
+                        <div>
+                          <strong>Formación</strong>
+                          <p>{person.education}</p>
+                        </div>
+
+                        <div>
+                          <strong>Experiencia</strong>
+                          <p>{person.experience}</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </article>
+                ))}
+
+              </div>
+
             </div>
+
           </div>
+
         </section>
+
 
         <section className="cta-section">
           <div className="section-container cta-content">
