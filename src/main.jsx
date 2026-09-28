@@ -20,8 +20,8 @@ const projects = [
 ];
 
 const services = [
-  { icon: '', title: 'Instalaciones eléctricas', text: 'Instalaciones electricas nuevas, ampliaciones, normalizacion de circuitos y construccion de sistemas de puesta a tierra para hogares y comercios.' },
-  { icon: '', title: 'Mantenimiento', text: 'Matenimiento de mtores electricos, mantenimiento de tableros electricos y mantenimiento de redes residenciales en pro de la seguridad.' },
+  { icon: '', title: 'Instalaciones eléctricas', text: 'Instalaciones eléctricas nuevas, ampliaciones, normalización de circuitos y construcción de sistemas de puesta a tierra para hogares y comercios.' },
+  { icon: '', title: 'Mantenimiento', text: 'Mantenimiento de motores eléctricos, mantenimiento de tableros eléctricos y mantenimiento de redes residenciales en pro de la seguridad.' },
   { icon: '', title: 'Control electrico', text: 'Ensamble de tableros eléctricos de control y distribución, instalación y conexión de equipos de instrumentación, control de motores eléctricos y conexión de sistemas automatizados.' },
   { icon: '', title: 'Diagnóstico eléctrico', text: 'Inspección de fallas, puntos eléctricos, conexiones y necesidades de mejora.' }
 ];
@@ -30,20 +30,20 @@ const team = [
   {
     name: 'MAYRON YESID CASARES MURIELES',
     role: 'Gerente / Ténico electricista',
-    image: `${import.meta.env.BASE_URL}persona-1.avif`,
-    education: 'Tecnólogo en electricidad industrial y estudios relacionados.',
-    experience: 'Ensamble de tableros eléctricos, conexión e instalación de sistemas de control e intrumentación, instalación de redes internas, conexión de motores e implementación de variadores de frecuencia.',
+    image: `${import.meta.env.BASE_URL}persona-1.jpg`,
+    education: 'Tecnólogo en electricidad industrial y estudios afines al mantenimiento eléctrico.',
+    experience: 'Ensamble de tableros eléctricos, conexión e instalación de sistemas de control e intrumentación, conexión de PLC, instalación de redes internas, mantenimiento y conexión de motores eléctricos e implementación de variadores de frecuencia.',
     description:
-      'Comprometido con el trabajo responsable, el conocimiento sobre mi profesión y la practica bajo la normativa eléctrica, con el fin de un trabajo seguro y de calidad.'
+      'Comprometido con el desempeño responsable, el dominio técnico de mi profesión y el cumplimiento riguroso de la normativa eléctrica, para garantizar un trabajo de alto estándar y probidad'
   },
   {
     name: 'RAIZA JOCABETH ARRIETA PEREZ',
     role: 'Gerente / Ténica electricista',
-    image: `${import.meta.env.BASE_URL}persona-2.avif`,
-    education: 'Tecnóloga en electricidad industrial y estudios relacionados.',
-    experience: '...',
+    image: `${import.meta.env.BASE_URL}persona-2.jpg`,
+    education: 'Tecnóloga en electricidad industrial y estudios afines a las energias renovables.',
+    experience: 'Instalaciones eléctricas residenciales, coordinación, gestion y liderazgo de actividades de mantenimiento en entornos industriales. Mantenimiento de motores eléctricos e integranción de la formación tecnológica con la experiencia adquirida directamente en campo.',
     description:
-      'Comprometido con el trabajo responsable, el conocimiento sobre mi profesión y la practica bajo la normativa eléctrica, con el fin de un trabajo seguro y de calidad.'
+      'La responsabilidad, la disciplina y la determinación definen mi manera de trabajar, mi compromiso es con el dominio técnico, la seguridad y el cumplimiento de la normativa eléctrica, esto me permite afrontar cada proyecto con firmeza, precisión y la convicción de entregar resultados de alto estándar.'
   }
 ];
 
@@ -193,14 +193,13 @@ function App() {
                   MR Soluciones Eléctricas nace de la iniciativa de profesionales formados en el área eléctrica, con el propósito de ofrecer soluciones responsables, seguras y adaptadas a las necesidades de cada cliente.
                   Trabajamos para promover
                   el mejoramiento de la calidad de vida de las personas,
-                  nuestro propósito es ejecutar trabajos con buena
-                  comunicación, atención al detalle y una cultura de
+                  nuestro propósito es ejecutar trabajos con comunicación efectiva, atención al detalle y una cultura de
                   seguridad.
                 </p>
 
                 <p>
-                  Cada proyecto es una oportunidad para construir confianza
-                  y aportar instalaciones más confiables y organizadas.
+                  Cada proyecto es una oportunidad para construir confianza,
+                   aportar instalaciones más confiables y organizadas.
                 </p>
               </div>
 
