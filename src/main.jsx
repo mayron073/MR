@@ -30,7 +30,7 @@ const team = [
   {
     name: 'MAYRON YESID CASARES MURIELES',
     role: 'Gerente / Ténico electricista',
-    image: `${import.meta.env.BASE_URL}persona-1.jpg`,
+    image: `${import.meta.env.BASE_URL}persona-1.jpeg`,
     education: 'Tecnólogo en electricidad industrial y estudios afines al mantenimiento eléctrico.',
     experience: 'Ensamble de tableros eléctricos, conexión e instalación de sistemas de control e intrumentación, conexión de PLC, instalación de redes internas, mantenimiento y conexión de motores eléctricos e implementación de variadores de frecuencia.',
     description:
@@ -39,7 +39,7 @@ const team = [
   {
     name: 'RAIZA JOCABETH ARRIETA PEREZ',
     role: 'Gerente / Ténica electricista',
-    image: `${import.meta.env.BASE_URL}persona-2.jpg`,
+    image: `${import.meta.env.BASE_URL}persona-2.jpeg`,
     education: 'Tecnóloga en electricidad industrial y estudios afines a las energias renovables.',
     experience: 'Instalaciones eléctricas residenciales, coordinación, gestion y liderazgo de actividades de mantenimiento en entornos industriales. Mantenimiento de motores eléctricos e integranción de la formación tecnológica con la experiencia adquirida directamente en campo.',
     description:
@@ -302,9 +302,9 @@ function App() {
           <div>
             <h3>Contacto</h3>
             <ul className="footer-list">
-              <li>📞 <a href="tel:+573000000000">+57 300 000 0000</a></li>
+              <li><a href="https://wa.me/573008815135" target="_blank" rel="noreferrer">+57 300 881 5135</a></li>
               <li>📩 <a href="mailto:contacto@mrsoluciones.com">contacto@mrsoluciones.com</a></li>
-              <li>📍 Colombia · Cartagena</li>
+              <li>📍  Cartagena · Bolivar</li>
             </ul>
           </div>
 
@@ -312,7 +312,7 @@ function App() {
             <h3>Redes sociales</h3>
             <ul className="footer-list">
               <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></li>
-              <li><a href="https://wa.me/573000000000" target="_blank" rel="noreferrer">WhatsApp</a></li>
+              
             </ul>
           </div>
         </div>
