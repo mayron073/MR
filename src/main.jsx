@@ -22,24 +22,26 @@ const projects = [
 const services = [
   { icon: '', title: 'Instalaciones eléctricas', text: 'Instalaciones eléctricas nuevas, ampliaciones, normalización de circuitos y construcción de sistemas de puesta a tierra para hogares y comercios.' },
   { icon: '', title: 'Mantenimiento', text: 'Mantenimiento de motores eléctricos, mantenimiento de tableros eléctricos y mantenimiento de redes residenciales en pro de la seguridad.' },
-  { icon: '', title: 'Control electrico', text: 'Ensamble de tableros eléctricos de control y distribución, instalación y conexión de equipos de instrumentación, control de motores eléctricos y conexión de sistemas automatizados.' },
-  { icon: '', title: 'Diagnóstico eléctrico', text: 'Inspección de fallas, puntos eléctricos, conexiones y necesidades de mejora.' }
+  { icon: '', title: 'Tableros eléctricos', text: 'Ensamble de tableros eléctricos de control y distribución e instalación y conexión de sensores.' },
+  { icon: '', title: 'Diagnóstico eléctrico', text: 'Inspección de fallas, puntos eléctricos, conexiones y necesidades de mejora.' },
+  { icon: '', title: 'Motores eléctricos', text: 'Conexión e instalacion de dispositivos y sistemas de control de motores, como; arranques directos, estella a delta, inversión de giro, variadores de frecuencia y arrancadores suaves' },
+  { icon: 'Pronto...', title: 'Sis. Automatizados', text: 'Instalación de sistemas de luces einteligentes, Instalación de sistemas de riego automaticos, Instalación de sistemas de seguridad.'},
 ];
 
 const team = [
   {
-    name: 'MAYRON YESID CASARES MURIELES',
+    name: 'MAYRON CASARES',
     role: 'Gerente / Ténico electricista',
-    image: `${import.meta.env.BASE_URL}persona-1.jpeg`,
+    image: `${import.meta.env.BASE_URL}persona-1.png`,
     education: 'Tecnólogo en electricidad industrial y estudios afines al mantenimiento eléctrico.',
     experience: 'Ensamble de tableros eléctricos, conexión e instalación de sistemas de control e intrumentación, conexión de PLC, instalación de redes internas, mantenimiento y conexión de motores eléctricos e implementación de variadores de frecuencia.',
     description:
       'Comprometido con el desempeño responsable, el dominio técnico de mi profesión y el cumplimiento riguroso de la normativa eléctrica, para garantizar un trabajo de alto estándar y probidad'
   },
   {
-    name: 'RAIZA JOCABETH ARRIETA PEREZ',
+    name: 'RAIZA ARRIETA',
     role: 'Gerente / Ténica electricista',
-    image: `${import.meta.env.BASE_URL}persona-2.jpeg`,
+    image: `${import.meta.env.BASE_URL}persona-2.jpg`,
     education: 'Tecnóloga en electricidad industrial y estudios afines a las energias renovables.',
     experience: 'Instalaciones eléctricas residenciales, coordinación, gestion y liderazgo de actividades de mantenimiento en entornos industriales. Mantenimiento de motores eléctricos e integranción de la formación tecnológica con la experiencia adquirida directamente en campo.',
     description:
@@ -287,7 +289,7 @@ function App() {
               <span className="eyebrow">¿TIENES UN PROYECTO?</span>
               <h2>Cuéntanos qué necesitas y encontremos una solución.</h2>
             </div>
-            <a className="button button-light" href="#contacto">Contactar ahora</a>
+            <a className="button button-light" href="https://wa.me/573008815135" target="_blank" rel="noreferrer">Iniciar chat  📲</a>
           </div>
         </section>
       </main>
@@ -302,7 +304,7 @@ function App() {
           <div>
             <h3>Contacto</h3>
             <ul className="footer-list">
-              <li><a href="https://wa.me/573008815135" target="_blank" rel="noreferrer">+57 300 881 5135</a></li>
+              <li><a >📞+57 xxx xxx xxxx</a></li>
               <li>📩 <a href="mailto:contacto@mrsoluciones.com">contacto@mrsoluciones.com</a></li>
               <li>📍  Cartagena · Bolivar</li>
             </ul>
